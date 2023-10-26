@@ -107,28 +107,28 @@ tr:nth-child(n+2){
     display: none;
 }
     #sehwag{
-        top: 295px;
+        top: 300px;
     }
     #sachin{
-        top: 335px;
+        top: 340px;
     }
     #gambhir{
-        top: 375px;
+        top: 380px;
     }
     #kohli{
-        top: 415px;
+        top: 420px;
     }
     #dhoni{
-        top: 455px;
+        top: 460px;
     }
     #yuvraj{
-        top: 495px;
+        top: 500px;
     }
 
 /* batsman-not-played  */
 .batsman-not-played{
     position: absolute;
-    top: 637px;
+    top: 640px;
     display: none;
 }
     #raina{
