@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 78% 78%;
+    background-position: right bottom;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo  */
+#logo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 90px 0 0 ;
+}
+
+#margin-left{
+    margin-left: 70px;
+}
+
+/* header text  */
+.text>h1{
+    font-size: 45px;
+    text-shadow: 0 1px 6px  rgba(0, 0, 0, 0.584);
+    margin-bottom: -18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.text>h3{
+    font-size: 22px;
+    color: grey;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 550;
+}
+
+/* table  */
+
+.left{
+    text-align: left;
+}
+
+#right{
+    text-align: right;
+    padding-right: 3%;
+}
+
+.space-left{
+    padding-left: 20px;
+}
+
+table{
+    background-color: white;
+    border-collapse: collapse;
+    width: 950px;
+    height:400px;
+    font-size: 20px;
+    box-shadow: -1px 3px 7px #d7d7d7c9;
+}
+
+thead{
+    background-color:  #F05033;
+    color: white;
+    font-weight: bold;
+}
+
+tr{
+ height: 40px;
+}
+
+tr:nth-child(n+2){
+    border-top: 1px solid #696969;
+}
+
+.padding-left{
+    padding-left: 15px;
+    text-align: center;
+}
+
+.size{
+    font-size: 19px;
+}
+
+/* changing colour  */
+.grey{
+    color: grey;
+}
+
+.blue{
+    color:#569fff; ;
+}
+
+.align-right{
+   padding-left: 42%
+}
+
+/* aligning biodata of batsman  */
+
+/* .batsman-played  */
+
+.batsman-played{
+    position: absolute;
+    left: 80px;
+    display: none;
+}
+    #sehwag{
+        top: 295px;
+    }
+    #sachin{
+        top: 335px;
+    }
+    #gambhir{
+        top: 375px;
+    }
+    #kohli{
+        top: 415px;
+    }
+    #dhoni{
+        top: 455px;
+    }
+    #yuvraj{
+        top: 495px;
+    }
+
+/* batsman-not-played  */
+.batsman-not-played{
+    position: absolute;
+    top: 637px;
+    display: none;
+}
+    #raina{
+        left: 280px;
+    }
+    #harbhajan{
+        left: 400px;
+    }
+    #zaheer{
+        left: 540px;
+    }
+    #munaf{
+        left: 660px;
+    }
+    #sreesanth{
+        left: 780px;
+    }
+
+/* footer*/
+
+.footer{
+margin: 40px 0 0 70px;
+}
+
